@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-08-19.1",
+  "generatedAt": "2026-08-19T00:00:00Z",
+  "categories": [
+    { "id": "character", "name": { "zh-CN": "角色", "en": "Characters" } },
+    { "id": "scene", "name": { "zh-CN": "场景", "en": "Scenes" } },
+    { "id": "prop", "name": { "zh-CN": "道具", "en": "Props" } }
+  ],
+  "assets": [
+    {
+      "id": "basic-cube",
+      "version": "1.0.0",
+      "name": { "zh-CN": "基础立方体", "en": "Basic Cube" },
+      "description": {
+        "zh-CN": "低多边形测试立方体，用于验证 DirectorDesk 官方资产下载。",
+        "en": "A low-poly test cube for DirectorDesk official downloads."
+      },
+      "category": "prop",
+      "tags": ["cube", "primitive", "test"],
+      "format": "obj",
+      "entrypoint": "model/cube.obj",
+      "files": [
+        {
+          "path": "model/cube.obj",
+          "url": "models/basic-cube/1.0.0/cube.obj",
+          "sha256": "be116f191528a5916de44cada5fe6f7c8072627c86db20513e7044634aad757a",
+          "size": 549
+        },
+        {
+          "path": "model/cube.mtl",
+          "url": "models/basic-cube/1.0.0/cube.mtl",
+          "sha256": "c589b7cea499f413a96299746fe2d8f7300a7dfaff48431fe3f8ce24e34ffe1c",
+          "size": 63
+        }
+      ],
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": ""
+      },
+      "author": {
+        "name": "DirectorDesk Community",
+        "url": "https://github.com/wisdom-km/obj-3d-models"
+      }
+    }
+  ]
+}

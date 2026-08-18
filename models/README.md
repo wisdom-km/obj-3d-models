@@ -1,11 +1,5 @@
-# 3D Models
+# models
 
-将你的 OBJ 模型文件放在这个目录下。
+DirectorDesk 官方资产按 `id/version/` 存放。清单见仓库根目录 `manifest.json`。
 
-Place your .obj files (and associated .mtl files) in this directory.
-
-建议为每个模型创建子目录，例如：
-
-- models/chair/
-  - chair.obj
-  - chair.mtl
+官方准入许可证：CC0-1.0，或带署名的 CC-BY-4.0。
