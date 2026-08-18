@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-08-19.1",
-  "generatedAt": "2026-08-19T00:00:00Z",
+  "revision": "2026-08-19.2",
+  "generatedAt": "2026-08-18T22:11:41Z",
   "categories": [
     { "id": "character", "name": { "zh-CN": "角色", "en": "Characters" } },
     { "id": "scene", "name": { "zh-CN": "场景", "en": "Scenes" } },
@@ -32,6 +32,37 @@
           "url": "models/basic-cube/1.0.0/cube.mtl",
           "sha256": "c589b7cea499f413a96299746fe2d8f7300a7dfaff48431fe3f8ce24e34ffe1c",
           "size": 63
+        }
+      ],
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": ""
+      },
+      "author": {
+        "name": "DirectorDesk Community",
+        "url": "https://github.com/wisdom-km/obj-3d-models"
+      }
+    },
+    {
+      "id": "brian",
+      "version": "1.0.0",
+      "name": { "zh-CN": "布莱恩", "en": "Brian" },
+      "description": {
+        "zh-CN": "角色模型布莱恩，由 Blender 导出的 OBJ。",
+        "en": "Character model Brian, exported from Blender as OBJ."
+      },
+      "category": "character",
+      "tags": ["character", "brian", "person"],
+      "format": "obj",
+      "entrypoint": "model/brian.obj",
+      "files": [
+        {
+          "path": "model/brian.obj",
+          "url": "models/brian/1.0.0/brian.obj",
+          "sha256": "b31e9e8a99aecdf0c7f50033d95dd0e9a6bfaae38d3555aaacc91fa35bd2fe44",
+          "size": 12502527
         }
       ],
       "license": {
